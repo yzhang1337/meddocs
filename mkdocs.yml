@@ -1,2 +1,6 @@
-site_name: My Docs
-site_url: https://example.com/
+site_name: MedDocs
+site_url: https://yzhang1337.github.io/meddocs/
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
