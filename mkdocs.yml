@@ -3,4 +3,37 @@ site_url: https://yzhang1337.github.io/meddocs/
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+  - Trauma: 
+    - 'Initial Survey': 'trauma-surgery/initial-survey.md'
+    - 'Topic 2': 'trauma-surgery/topic2.md'
+  - Surgery:
+    - 'Buzzwords': 'surgical-buzzwords.md'
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+
+      scheme: default
+      primary: light blue
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+
+    - media: "(prefers-color-scheme: dark)"
+
+      scheme: slate
+      primary: light blue
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+markdown_extensions:
+    - toc
+plugins:
+  - search
