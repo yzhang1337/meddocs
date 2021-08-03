@@ -8,6 +8,11 @@ nav:
     - 'Topic 2': 'trauma-surgery/topic2.md'
   - Surgery:
     - 'Buzzwords': 'surgical-buzzwords.md'
+  - Psychiatry:
+    - 'Plan': 'psych-init.md'
+    - 'Anxiety + Related Disorders': 'psych-ome-anxiety-disorders.md'
+    - 'Stress Disorders + PTSD': 'psych-ome-stress.md'
+  - readme: 'readme.md' 
 theme:
   name: material
   palette:
